@@ -3,6 +3,7 @@ package main
 import (
     "net"
     "fmt"
+    "os/exec"
 )
 
 func tcp_listen(addr string) *net.TCPListener {
@@ -17,4 +18,19 @@ func tcp_listen(addr string) *net.TCPListener {
     }
     fmt.Printf("listen on %s\n", _laddr)
     return l
+}
+
+func run_shell(file string) string {
+    cmd := exec.Command("/bin/bash", "-c", file)
+    output, err := cmd.Output()
+    if err != nil {
+        if err,ok := err.(*exec.ExitError); ok {
+            if err.ExitCode() != 1 {
+                panic("run " + file + " err:" + err.Error())
+            }
+        } else {
+            panic("run " + file + " err:" + err.Error())
+        }
+    }
+    return string(output)
 }
