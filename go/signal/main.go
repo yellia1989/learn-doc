@@ -8,11 +8,9 @@ import (
 )
 
 func main() {
-    c := make(chan os.Signal, 1)
+    c := make(chan os.Signal)
     signal.Notify(c)
 
-    for {
-        s := <-c
-        fmt.Printf("recv signal:%s\n", s)
-    }
+    s := <-c
+    fmt.Printf("recv signal:%s\n", s)
 }
