@@ -27,8 +27,7 @@
 在多数编程语言中，方法其实属于广义上的函数：独立定义的叫做函数，定义在类中的函数一般称之为方法。然而在Scala中，二者的差异其实会更大，不仅有形式上的区别，更有用法上的不同。
 
 方法的标准定义如下：
-
-    ![images](https://github.com/yellia1989/learn-doc/blob/master/code/scala/2.HelloWorld/images/func_def.png)
+![images](https://github.com/yellia1989/learn-doc/blob/master/code/scala/2.HelloWorld/images/func_def.png)
     
 以上是一个标准的Scala方法定义程序，执行的是两个整数求和的操作，保留了方法定义中的每个要素，分别介绍如下：
 
