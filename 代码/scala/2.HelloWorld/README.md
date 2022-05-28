@@ -25,7 +25,7 @@ https://cloud.tencent.com/developer/article/1797451
 
 方法的标准定义如下：
 
-![image]()
+![image](https://github.com/yellia1989/learn-doc/blob/master/%E4%BB%A3%E7%A0%81/scala/2.HelloWorld/images/func_def.png)
 
 以上是一个标准的Scala方法定义程序，执行的是两个整数求和的操作，保留了方法定义中的每个要素，分别介绍如下：
 
