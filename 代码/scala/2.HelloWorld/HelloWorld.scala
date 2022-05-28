@@ -13,6 +13,4 @@ object HelloWorld extends App {
   def func1(s:String) {
     println(s) 
   }
-
-  func1("func1")
 }
