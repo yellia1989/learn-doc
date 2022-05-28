@@ -1,7 +1,12 @@
 1、linux系统下安装scala环境
 curl -fL https://github.com/coursier/launchers/raw/master/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup
 
-2、学习使用sbt编译项目
+切换到scala 2.13.8环境
+cs install scala:2.13.8 scalac:2.13.8
+
+2、scala编程可以分为，脚本编程和应用程序编程，我们主要学习应用程序编程
+
+3、学习使用sbt编译项目
     sbt是一个编译工具，它需要项目结构如下，才能正常编译
 build.sbt
 project/
