@@ -1,0 +1,17 @@
+1、linux系统下安装scala环境
+curl -fL https://github.com/coursier/launchers/raw/master/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup
+
+2、学习使用sbt编译项目
+    sbt是一个编译工具，它需要项目结构如下，才能正常编译
+build.sbt
+project/
+src/
+-- main/
+   |-- java/
+   |-- resources/
+   |-- scala/
+|-- test/
+   |-- java/
+   |-- resources/
+   |-- scala/
+target/
