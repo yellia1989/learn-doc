@@ -10,7 +10,12 @@ object HelloWorld extends App {
   //p2 = "222"
   println(p, p2)
 
-  def func1(s:String) {
-    println(s) 
+  def func1() {
+    println("func1") 
   }
+
+  func1()
+
+  var f2 = (s:String) => println(s)
+  f2("function")
 }
