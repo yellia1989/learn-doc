@@ -1,0 +1,2 @@
+1、启动支持systemctl start sshd的容器
+    docker run --name="" --privileged -dit --hostname="" centos:centos7 /usr/sbin/init

@@ -3,3 +3,4 @@ ps -C name s
 
 2、查看摸一个进程的打开的文件
 lsof -p pid
+
