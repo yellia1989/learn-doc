@@ -6,15 +6,13 @@
     5. spring boot 基础 6月12号
     6. spring boot 运维 6月13号
     7. spring boot 测试
+    8. 微服务 dubbo 和 spring cloud 和spring cloud alibaba
+    9. 微服务部署 docker
 
 暂时不学习的
     1. spring web mvc
 
 正在阅读的书籍：  
-    java开发工具  
-        spring cloud 微服务
-
-        
-    java框架
-
     java中间件
+        10. RabbitMQ 消息队列
+            在Spring中使用SpringAMQP使用AMQP协议标准来向RabbitMQ中发送消息
