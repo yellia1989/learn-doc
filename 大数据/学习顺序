@@ -10,10 +10,11 @@
     9. 微服务部署 docker
     10. RabbitMQ 消息队列
         在Spring中使用SpringAMQP使用AMQP协议标准来向RabbitMQ中发送消息
+    11. elasticsearch 海量数据查询 6月16
 
 暂时不学习的
     1. spring web mvc
 
 正在阅读的书籍：  
     java中间件
-        elasticsearch 海量数据查询
+       Sential 防止服务雪崩
