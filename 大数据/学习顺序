@@ -15,10 +15,12 @@
     13. seata 分布式事务 6月18
     14. redis 集群
     15. dubbo 6月24
+    16. kettle ETL工具 6月24
+    17. superset 可视化 6月25
 
 暂时不学习的
     1. spring web mvc
 
 正在阅读的书籍：  
     java中间件
-       16. kettle ETL工具 6月24
+       
